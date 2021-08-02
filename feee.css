@@ -1,0 +1,39 @@
+
+.fullcard{
+    background-color:white;
+    border: 1px white solid;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.30);
+    width: 35%;
+    margin-top: 1px;
+    margin-left: 30%;
+}
+    
+.contain{
+    margin: 10px;
+    text-align: center;
+}
+.hdd{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.pp{
+    font-style: italic;
+}
+#body{
+    background-color: white;
+}
+#btn-1{
+    background-color: rgba(0, 0, 0, 0.809);
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.30);
+}
+
+#btn-2{
+    background-color: rgba(237, 235, 242, 0.19);
+    border-radius: 20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.30);
+}
