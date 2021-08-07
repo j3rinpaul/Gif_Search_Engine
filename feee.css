@@ -1,39 +1,45 @@
+body{
+    width: 80%;
+    max-width: 1024px;
+    margin: auto;
 
-.fullcard{
-    background-color:white;
-    border: 1px white solid;
-    border-radius: 20px;
-    box-shadow: 0px 10px 20px rgba(0,0,0,0.30);
-    width: 35%;
-    margin-top: 1px;
-    margin-left: 30%;
 }
-    
-.contain{
-    margin: 10px;
-    text-align: center;
+
+.container_1{
+    margin-top: 50px;
+    margin-right: 15%;
+    margin-left: 15%;
 }
-.hdd{
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    text-transform: uppercase;
-    text-decoration: underline;
+
+.input_cl{
+    color: rgb(69, 69, 87);
+    width: 70%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(250, 250, 250);
+    border-style: double;
+    border-color: rgba(0, 0, 0, 0.295);
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    /* padding: 20px; */
 }
-.pp{
-    font-style: italic;
-}
-#body{
-    background-color: white;
-}
-#btn-1{
-    background-color: rgba(0, 0, 0, 0.809);
-    border-radius: 20px;
+.btn{
+    background-color: cornflowerblue;
+    width: 60px;
+    height: 48px;
+    margin: auto;
+    border-radius: 10px;
+    border-style: double;
+    border-color: rgba(0, 0, 0, 0.337);
     color: white;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.30);
 }
 
-#btn-2{
-    background-color: rgba(237, 235, 242, 0.19);
-    border-radius: 20px;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.30);
+.container-image {
+	width: 30%;
+	display: block;
+	float: left;
+	margin-right:3%;
 }
