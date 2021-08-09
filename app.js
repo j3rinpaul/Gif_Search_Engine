@@ -52,6 +52,6 @@ function pushTo(input) { //function to push the result to html body
     var foot = document.querySelector('.footer');
     var container = document.querySelector(".elements");
     container.innerHTML += "<img src=\"" + src + "\" class=\"element\">";
-    foot.innerHTML = "Refresh for another Search <br> Minor Bug..Fixing it soon... <br><br> Made by Jerry"
+    foot.innerHTML = "Refresh for another Search <br> Minor Bug..Fixing it soon... <br><br> Made by Jerry";
   });
 }
