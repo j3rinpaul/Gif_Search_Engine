@@ -19,26 +19,16 @@ body{
     width: 72%;
     height: 40px;
     margin-top: 10px;
-    margin-left: 10%;
+    margin-left: 1%;
     margin-right: auto;
     background-color: rgba(0, 0, 0, 0.905);
     border-style: double;
     border-color: rgba(0, 0, 0, 0.295);
     font-size: 20px;
     display: inline-block;
+    font-family: 'Style Script', cursive;
     border-radius: 10px;
     padding-left: 1%;
-}
-.btn{
-    background-color: cornflowerblue;
-    width: 60px;
-    display: inline-block;
-    height: 48px;
-    margin: auto;
-    border-radius: 10px;
-    border-style: double;
-    border-color: rgba(0, 0, 0, 0.337);
-    color: white;
 }
 
 .element{
@@ -49,8 +39,19 @@ body{
     /* float: left; */
 	margin-left:3%;
 }
-footer{
-    font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(0, 0, 0);
 
+
+.img-fluid{
+    margin-left: 3.5%;
+}
+
+.btn{
+    display: inline;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+.giffy{
+    font-weight: normal;
+    font-family: 'Style Script', cursive;
+    margin-left: 43%;
 }

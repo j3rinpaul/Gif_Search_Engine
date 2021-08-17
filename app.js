@@ -1,4 +1,4 @@
-let button = document.querySelector('button'); //grabing the button element
+let button = document.getElementById('rel_bt'); //grabing the button element
 button.addEventListener("click",()=>{ //adding an event listner click to the button
   let text = document.querySelector('input').value; //function to be executed after the event
   api(text);
@@ -10,6 +10,7 @@ even.addEventListener('keyup',(e)=>{ /*for every key or click there is a ton of 
   if(e.keyCode === 13){ /*key code of enter is 13 by which when we press enter
     the condition is satisfied and the function below gets executed*/
     api(text);
+    
   }
 });
 // API
@@ -51,7 +52,9 @@ function pushTo(input) { //function to push the result to html body
     console.log(src);
     var foot = document.querySelector('.footer');
     var container = document.querySelector(".elements");
-    container.innerHTML += "<img src=\"" + src + "\" class=\"element\">";
-    foot.innerHTML = "Refresh for another Search <br> Minor Bug..Fixing it soon... <br><br> Made by Jerry"
+    container.innerHTML += "<img src=\"" + src + "\" class=\"img-fluid\">";
   });
+}
+function reLoad(){
+  window.location.reload();
 }
